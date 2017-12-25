@@ -1,14 +1,14 @@
 /*!
 Theme Name: sivanPortfolio
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Theme URI: http://sivanweitz.com
+Author: Justyn Gourdin
+Author URI: http://justynjen.com
+Description: A portfolio theme built for Sivan Weitz to use in her proffessional life and business.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: sivanportfolio
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: portfolio, clean, responsive, minimal, custom
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -44,10 +44,48 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width : 100%;
+  height: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+	padding: 10px;
+}
+.bg{
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.centered{
+	text-align: center;
+}
+.social{
+	font-size: 1rem;
+}
+h1{
+	padding-top: 15%;
+  font-size: 7.5rem;
+}
+p{
+	font-size: 2rem;
+	padding: 10px;
+}
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	overflow-x: hidden;
+  font-size: 14px;
+  color: rgb(60,60,60);
+  font-family: 'Lato';
 }
 
 body {

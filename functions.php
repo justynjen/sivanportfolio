@@ -7,6 +7,8 @@
  * @package sivanPortfolio
  */
 
+ require get_template_directory() . '/inc/function-admin.php';
+
 if ( ! function_exists( 'sivanportfolio_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -155,4 +157,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
