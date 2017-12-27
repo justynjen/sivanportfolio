@@ -17,22 +17,22 @@ get_header(); ?>
 	<section>
 		<h3>Blog Writing</h3>
 		<div class="grid">
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
-			<div class="col-2">
+			<div class="col-2_xs-6">
 				<button type="button" name="button">Sample</button>
 			</div>
 		</div>
