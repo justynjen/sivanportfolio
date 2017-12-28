@@ -8,7 +8,7 @@ get_header(); ?>
 	<?php
 
 	<section>
-		<h2>Portfolio Heading</h2>
+		echo "<h2 class="centered">Portfolio Heading</h2>"
 		<div class="grid">
 				<div class="col-6">
 					<img src="images/desk.jpeg" alt="">
