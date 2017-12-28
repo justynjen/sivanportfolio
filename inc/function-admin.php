@@ -12,7 +12,7 @@
 function sivanportfolio_add_admin_page(){
 
 	//Generate Sivan Portfolio Admin Page
-	add_menu_page( 'Sivan Portfolio Options', 'Sivan', 'manage_options', 'sivan_portfolio', 'sivanportfolio_theme_create_page', 120 );
+	add_menu_page( 'Sivan Portfolio Options', 'Sivan', 'manage_options', 'sivan_portfolio', 'sivanportfolio_theme_create_page', 110 );
 
 	//Generate Sican Portfolio Admin Subpages
 	add_submenu_page( 'sivan_portfolio', 'Sivan Portfolio Theme Options', 'Theme Options', 'manage_options', 'sivan_portfolio_theme', 'sivan_portfolio_support_page' );

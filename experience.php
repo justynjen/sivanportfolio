@@ -1,4 +1,6 @@
 <?php
+/* Template name: CustomPageT2 */
+
 get_header(); ?>
 
 	<section>

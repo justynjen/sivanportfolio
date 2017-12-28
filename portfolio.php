@@ -1,4 +1,5 @@
 <?php
+/* Template name: CustomPageT1 */
 get_header(); ?>
 
 
