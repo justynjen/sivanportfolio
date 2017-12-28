@@ -1,7 +1,11 @@
 <?php
-/* Template name: CustomPageT1 */
+/* Template name: Portfolio Page 1 */
 get_header(); ?>
 
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+
+	<?php
 
 	<section>
 		<h2>Portfolio Heading</h2>
@@ -40,7 +44,11 @@ get_header(); ?>
 	</section>
 
 
+	?>
 
-<?php
-get_sidebar();
-get_footer();
+	</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<?php
+	get_sidebar();
+	get_footer();

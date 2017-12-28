@@ -1,7 +1,12 @@
 <?php
-/* Template name: CustomPageT3 */
+/* Template name: Contact Page 1 */
 
 get_header(); ?>
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+
+	<?php
 
 <section>
 	<h1>Contact Me</h1>
@@ -12,6 +17,11 @@ get_header(); ?>
 </section>
 
 
+
+?>
+
+</main><!-- #main -->
+</div><!-- #primary -->
 
 <?php
 get_sidebar();

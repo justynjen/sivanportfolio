@@ -1,7 +1,12 @@
 <?php
-/* Template name: CustomPageT2 */
+/* Template name: Experience Page 1 */
 
 get_header(); ?>
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+
+	<?php
 
 	<section>
 		<h2>What I do</h2>
@@ -10,9 +15,9 @@ get_header(); ?>
 				<img src="images/desk.jpeg" alt="">
 			</div>
 			<div class="col-6">
-				<h3>Hello there</h3>
-				<h4>I'm Sivan</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				echo "<h3>Hello there</h3>"
+				echo "<h4> I'm Sivan </h4>"
+				echo "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
 				<ul>
 					<li>Skill</li>
 					<li>Skill</li>
@@ -120,6 +125,11 @@ get_header(); ?>
 		</div>
 	</section>
 
-<?php
-get_sidebar();
-get_footer();
+	?>
+
+	</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<?php
+	get_sidebar();
+	get_footer();
