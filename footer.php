@@ -1,4 +1,3 @@
-<?php footer();
 /**
  * The template for displaying the footer
  *
@@ -9,8 +8,8 @@
  * @package sivanPortfolio
  */
 
-?>
-
+<?php
+ 
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
