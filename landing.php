@@ -1,5 +1,5 @@
 <?php
-/** Template name: CustomPageT1
+/** Template name: CustomPageT5
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -12,14 +12,11 @@ get_header(); ?>
 		<main id="main" class="site-main">
 
 			<?php
-			<section class="bg" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/desk.jpg');">
+			<section class="bg" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/desk.jpg);">
+
 				<div class="aligncenter">
-					<h1>
-						Sivan Weitz
-					</h1>
-					<p>
-						A brief summary - Write a quick sentence here summarizing what you
-					</p>
+					<h1 class="page-title"> Sivan Weitz </h1>
+					<p class="site-description"> A brief summary about you and your job </p>
 				</div>
 				<div class="nav aligncenter">
 					<a href="home">Home</a>
