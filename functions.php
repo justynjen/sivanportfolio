@@ -123,6 +123,10 @@ add_action( 'widgets_init', 'sivanportfolio_widgets_init' );
 function sivanportfolio_scripts() {
 	wp_enqueue_style( 'sivanportfolio-style', get_stylesheet_uri() );
 
+  wp_enqueue_style( 'sivanportfolio-style-sivanportfolio', get_template_directory_uri() . '/sivanportfolio.css' );
+
+  wp_enqueue_style( 'sivanportfolio-style-custom', get_template_directory_uri() . '/custom.css' );
+
 	wp_enqueue_script( 'sivanportfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'sivanportfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

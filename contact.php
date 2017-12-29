@@ -10,9 +10,6 @@ get_header(); ?>
 
 <section>
 	<h1 class="aligncenter">Contact Me</h1>
-	<div class="form centered">
-
-	</div>
 
 </section>
 

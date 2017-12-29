@@ -1,0 +1,11 @@
+/* Custom Style Wordpress */
+
+.site-header{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.site-branding{
+	width: 40%;
+	float: left;
+}

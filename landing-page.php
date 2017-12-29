@@ -9,7 +9,7 @@
  	<main id="main" class="site-main">
 
 
-<section class="bg" style="background-image: url('images/desk.jpg')">
+<section class="bg" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/desk.jpg');">
 	<div class="aligncenter">
 		<h1>
 			Sivan Weitz
