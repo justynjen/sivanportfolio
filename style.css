@@ -521,15 +521,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
 }
 
 a:visited {
-	color: purple;
+	color: grey;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: teal;
 }
 
 a:focus {
@@ -546,7 +546,7 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+	float: right;
 	width: 100%;
 }
 
@@ -559,7 +559,7 @@ a:hover, a:active {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
+	float: right;
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -586,7 +586,7 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-	float: left;
+	float: right;
 	position: relative;
 }
 

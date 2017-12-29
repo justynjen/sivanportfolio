@@ -16,3 +16,7 @@ a{
 .centered{
 	text-align: center;
 }
+p{
+  font-size: 1.2rem;
+  color: black;
+}

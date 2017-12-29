@@ -12,7 +12,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer centered">
+	<footer id="colophon" class="site-footer aligncenter">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sivanportfolio' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
