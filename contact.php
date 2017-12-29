@@ -9,8 +9,8 @@ get_header(); ?>
 	<?php
 
 <section>
-	<h1>Contact Me</h1>
-	<div class="form">
+	<h1 class="centered">Contact Me</h1>
+	<div class="form centered">
 
 	</div>
 

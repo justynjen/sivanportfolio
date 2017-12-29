@@ -5,6 +5,10 @@
  *
  * @package sivanPortfolio
  */
+ <div id="primary" class="content-area">
+ 	<main id="main" class="site-main">
+
+ 	<?php
 <section class="bg" style="background-image: url('images/desk.jpg')">
 	<div class="centered">
 		<h1>
@@ -27,3 +31,8 @@
 		<a href="http://youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 	</div>
 </section>
+
+
+
+</main><!-- #main -->
+</div><!-- #primary -->
