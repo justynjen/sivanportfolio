@@ -1,5 +1,5 @@
 <?php
-/** Template name: Landing Page 1
+/** Template name: CustomPageT1
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

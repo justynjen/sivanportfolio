@@ -1,5 +1,5 @@
 <?php
-/* Template name: Portfolio Page 1 */
+/* Template name: CustomPageT3 */
 get_header(); ?>
 
 <div id="primary" class="content-area">

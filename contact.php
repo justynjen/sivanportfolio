@@ -1,5 +1,5 @@
 <?php
-/* Template name: Contact Page 1 */
+/* Template name: CustomPageT4 */
 
 get_header(); ?>
 

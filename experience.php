@@ -1,5 +1,5 @@
 <?php
-/* Template name: Experience Page 1 */
+/* Template name: CustomPageT2 */
 
 get_header(); ?>
 
