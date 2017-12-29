@@ -1,55 +1,61 @@
-<?php header();
+<?php
 /**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * The theme header.
  *
  * @package sivanPortfolio
  */
 
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-	<?php wp_head(); ?>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sivanportfolio' ); ?></a>
-
+<div id="page">
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) );?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) );?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+		<div class="container clearfix">
+			<div id="site-branding">
+				<?php the_custom_logo() ;?>
+					<?php if ( is_front_page() ) : ?>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+					<?php else : ?>
+						<p class="site-title"><a href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+					<?php endif; ?>
+					<p class="site-description"><?php bloginfo('description'); ?></p>
+			</div><!-- #site-branding -->
 
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xxs ok. */ ?></p>
-			<?php
-		endif; ?>
-		
-		</div><!-- .site branding -->
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sivanportfolio' ); ?></button>
-			<?php
+			<div class="toggle-nav">
+				<span></span>
+			</div>
+
+			<nav id="site-navigation" class="main-navigation">
+				<?php
 				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
+					'theme_location' => 'primary',
+					'container_class' => 'menu clearfix' ,
+					'menu_class' => 'clearfix',
+					'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					'fallback_cb' => 'sivanportfolio_primary_menu_fallback',
 				) );
-			?>
-		</nav><!-- #site-navigation -->
+				?>
+			</nav><!-- #site-navigation -->
+
+	        <a href="#x" class="sivanportfolio-overlay" id="search"></a>
+	        <div class="sivanportfolio-modal">
+				<?php get_search_form(); ?>
+	            <a class="fa fa-close" href="#close"></a>
+	        </div>
+
+		</div>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content clearfix">
+<header class="custom-post-type-header">
+</header>
